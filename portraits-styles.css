@@ -1,0 +1,551 @@
+@charset "UTF-8";
+/* CSS Document */
+	        
+
+     html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+		-webkit-box-sizing:border-box;
+		box-sizing:border-box;
+/*
+        
+      USE THIS TO SEE THE BOXES AROUND ELEMENTS   
+*/
+/*
+        
+        outline: 1px dashed red; 
+*/
+    }
+
+body{
+	-webkit-text-size-adjust:100%;
+	width: 100%;
+    height: 100%;
+    min-width: 320px;
+    
+	font-size:1em;
+
+    background-color: #F5F3EE; 
+    
+}
+
+
+#menu{
+    
+    width:0px;
+    position: fixed;
+    top:0px;
+    left:0px;
+    overflow-x: hidden;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    padding: 60px 0px 60px;
+    background-color: antiquewhite;
+/*    padding: 5%;*/
+    text-align: center;
+    z-index: 200;
+}
+
+.closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#menu>a{
+    
+    display: block;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    padding: .5em 0;
+
+}
+
+
+header{
+    width:100%;
+    
+     display: -webkit-box;
+    
+     display: -ms-flexbox;
+    
+     display: flex;
+        position: relative;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+        flex-flow: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    background-color: #CA9723;
+    margin-bottom: 10em;;
+
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(202,151,35,.6)), to(rgba(202,151,35,.3)) ), url(images/SVG/children-tile-pattern.svg);;
+
+    background-image: linear-gradient(0deg, rgba(202,151,35,.6), rgba(202,151,35,.3) ), url(images/SVG/children-tile-pattern.svg);
+    background-position: top left;
+    background-repeat:  no-repeat, repeat;
+    background-size: cover, 55px;
+}
+
+.imageWrapper{
+    
+    margin: 3vh auto 0;
+/*    padding-bottom:5em;*/
+    max-width: 90%;
+    -webkit-animation: opacityLoad 3s ease;
+    animation: opacityLoad 3s ease;
+    
+}
+
+.titleWrapper{
+    
+   padding-top:10%;
+    padding-bottom: 5%;
+    -webkit-animation: opacityLoad 2s ease;
+    animation: opacityLoad 2s ease;
+}
+
+figure{
+    
+        max-width: 70%;
+        margin: 0 auto;
+}
+
+.horizontalCover{
+    max-width: 100%;
+    
+}
+
+.horizontalCover figcaption{
+    
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+
+}
+
+
+
+h1{
+    
+    font-family: 'AlbertusNova-Regular', "Book Antiqua", "Palatino Linotype", serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 3em;
+    margin: 0em auto 1em;
+    max-width: 80%;
+    line-height: 1;
+    color:#276479;
+
+    text-align: center;
+
+    
+}
+
+h2{
+    
+    font-family: 'Futura', Arial, Helvetica, sans-serif;
+/*    text-transform: uppercase;*/
+    letter-spacing: 0em;
+    max-width: 80%;
+    margin: 0 auto;
+    font-size: 1.03em; 
+    line-height: 1.6;
+    text-align: center;
+    color: #332727;
+
+
+}
+
+ 
+
+a{
+    
+    text-decoration: none;
+     font-family: 'AlbertusNova-Regular',  "Book Antiqua", "Palatino Linotype", serif;
+    font-size: 1.125em;
+    color: #0A6A8B; 
+     -webkit-transition: 0.3s; 
+     transition: 0.3s;
+}
+
+
+figcaption h3{
+    
+    font-family: 'AlbertusNova-Regular',  "Book Antiqua", "Palatino Linotype", serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.5em;
+    line-height: 1;
+    color:#CA9723;
+    margin-top: 1.5em;
+}
+
+figcaption p{
+    
+    font-family: 'Futura', Arial, Helvetica, sans-serif;
+    margin: 0 auto 3em;
+    font-size: .9em; 
+    line-height: 1.5;
+    color: #332727;
+    margin-top: 1em;
+} 
+
+figure + figure{
+    
+    margin-top: 8em;
+}
+
+/*Add additional bottom margin to last pic*/
+
+figure:last-child{
+    
+    margin-bottom: 18%;
+}
+
+a:hover{
+    
+    color:#CA9723;
+}
+    
+    .imageWrapper{
+        width:100%;
+        margin-bottom: 2em;
+
+    }
+
+
+
+.futuraSC{
+    font-family: 'Futura';
+    font-size: .35em;
+    line-height:4;
+    letter-spacing: .05em;
+}
+
+footer{
+    
+    padding: 1.5em;
+}
+
+footer p, footer a{
+    display: block;
+    max-width: 100%;
+       min-width: 20%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer a{
+    
+    font-size:.75em;
+}
+
+footer p{
+    font-family: 'Futura';
+    color: #898989;
+    font-size: .75em;
+    line-height:4;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    
+}
+
+/*FONTS*/
+
+
+@font-face{
+    
+    font-family:'Futura';
+    font-weight: normal;
+    font-style: normal;
+    src:url(webfonts/futura.ttc);
+}
+
+/*
+
+LOADING ANIMATION
+*/
+
+@-webkit-keyframes opacityLoad{
+    
+    from{
+        
+        opacity: .2;
+    }
+    
+    to{
+        
+        opacity: 1;
+    }
+    
+}
+
+@keyframes opacityLoad{
+    
+    from{
+        
+        opacity: .2;
+    }
+    
+    to{
+        
+        opacity: 1;
+    }
+    
+}
+
+/*MEDIA QUERIES*/
+
+@media(min-width:480px){
+    
+    header::before{
+        
+        content:'480x';
+        position: absolute;
+        top:0;
+        left:0;
+    }
+    
+  
+}
+
+
+@media (min-width : 750px){
+    
+      header::before{
+        
+        content:'750x';
+        position: absolute;
+        top:0;
+        left:0;
+    }
+   
+   h2{
+        max-width: 60%;
+    }
+    
+    header{
+        
+        background-size: cover, 70px;
+    }
+    
+}
+
+@media(min-width: 980px){
+    
+      header::before{
+        
+        content:'980px';
+        position: absolute;
+        top:0;
+        left:0;
+    }
+    
+    article{
+        
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    
+    
+    header{
+        
+         -webkit-box-orient: horizontal;
+        
+         -webkit-box-direction: normal;
+        
+         -ms-flex-flow: row;
+        
+         flex-flow: row;
+        padding: 0;
+    }
+    
+    
+    
+    header{height: 100%;}
+    
+    h2{max-width: 80%;}
+    
+    
+  .titleWrapper{
+   
+    width:40%;
+    padding: 5% 0; 
+
+}
+
+.imageWrapper{
+
+    width: 60%;
+    margin:0; 
+    padding: 0;
+}
+    
+    
+    figure{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        max-width: 100%;
+        overflow: auto;
+        -webkit-box-align:  flex-end;
+        -ms-flex-align: flex-end;
+        align-items: flex-end;
+        
+
+    }
+    
+    
+  
+    
+    figure:nth-child(odd) img{
+        
+        -webkit-box-ordinal-group: 3;
+        
+        -ms-flex-order: 2;
+        
+        order: 2;
+    }
+    
+    figure img{
+        
+        max-width: 50%;
+    }
+    
+    figcaption p{
+        
+        margin: 0;
+    }
+    
+
+  
+    figure:nth-child(even) figcaption p,  figure:nth-child(even) figcaption h3{
+        width: 70%;
+        float: right;
+    }
+    
+    figcaption h3, figcaption p {
+        max-width: 70%;
+        min-width: 60%;
+        
+    }
+    
+    
+    figcaption h3{
+        
+        font-size: 2em;
+        margin-bottom: 1em;
+        
+    }
+    
+  
+    .horizontalCover img{
+        
+        max-width: 60%;
+    }
+    
+  
+    
+    
+}
+
+@media(min-width:1280px ){
+    header::before{
+        
+        content:'1280px';
+        position: absolute;
+        top:0;
+        left:0;
+    }
+    
+    figure:last-child{
+    
+    margin-bottom: 10%;
+}
+    
+  
+    
+}
+
+@media(min-width:1920px ){
+    
+    
+     header::before{
+        
+        content:'1920px';
+        position: absolute;
+        top:0;
+        left:0;
+    }
+    
+    
+       header{
+        
+        background-size: cover, 85px;
+    }
+    
+   article{
+        
+        max-width: 60%;
+        margin: 0 auto;
+    }
+    
+    
+     h1{
+        
+        font-size:4em;
+    }
+    
+    h2{
+        font-size: 1.07em;
+        max-width: 60%;
+    }
+    
+    figure + figure{
+    
+    margin-top: 12em;
+}
+    
+     figcaption h3, figcaption p {
+        max-width: 60%;
+        min-width: 40%;
+
+    }
+    
+    figcaption p{
+        font-size: 1.03em;
+        
+    }
+    
+    
+}
+
+
+
