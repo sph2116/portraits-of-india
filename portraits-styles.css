@@ -170,7 +170,7 @@ h1{
 
 h2{
     
-    font-family: 'Futura', Arial, Helvetica, sans-serif;
+    font-family: "futura-pt", 'Futura', Arial, Helvetica, sans-serif;
 /*    text-transform: uppercase;*/
     letter-spacing: 0em;
     max-width: 80%;
@@ -209,7 +209,7 @@ figcaption h3{
 
 figcaption p{
     
-    font-family: 'Futura', Arial, Helvetica, sans-serif;
+    font-family: "futura-pt", 'Futura', Arial, Helvetica, sans-serif;
     margin: 0 auto 3em;
     font-size: .9em; 
     line-height: 1.5;
@@ -268,7 +268,7 @@ footer a{
 }
 
 footer p{
-    font-family: 'Futura';
+    font-family: "futura-pt", 'Futura';
     color: #898989;
     font-size: .75em;
     line-height:4;
@@ -281,7 +281,7 @@ footer p{
 
 
 @font-face{
-    
+     
     font-family:'Futura';
     font-weight: normal;
     font-style: normal;
