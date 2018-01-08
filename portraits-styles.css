@@ -41,7 +41,7 @@ body{
     
 	font-size:1em;
 
-    background-color: #F5F3EE; 
+/*    background-color: #F5F3EE; */
     
 }
 
@@ -99,9 +99,9 @@ header{
     background-color: #CA9723;
     margin-bottom: 10em;;
 
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(202,151,35,.6)), to(rgba(202,151,35,.3)) ), url(images/SVG/children-tile-pattern.svg);;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(202,151,35,.6)), to(rgba(202,151,35,.3)) ), url(images/SVG/children-tile-pattern.svg);
 
-    background-image: linear-gradient(0deg, rgba(202,151,35,.6), rgba(202,151,35,.3) ), url(images/SVG/children-tile-pattern.svg);
+  
     background-position: top left;
     background-repeat:  no-repeat, repeat;
     background-size: cover, 55px;
@@ -110,7 +110,6 @@ header{
 .imageWrapper{
     
     margin: 3vh auto 0;
-/*    padding-bottom:5em;*/
     max-width: 90%;
     -webkit-animation: opacityLoad 3s ease;
     animation: opacityLoad 3s ease;
@@ -155,7 +154,6 @@ img{
 h1{
     
     font-family: 'AlbertusNova-Regular', "Book Antiqua", "Palatino Linotype", serif;
-    font-weight: normal;
     font-style: normal;
     font-size: 3em;
     margin: 0em auto 1em;
@@ -170,15 +168,16 @@ h1{
 
 h2{
     
-    font-family: "futura-pt", 'Futura', Arial, Helvetica, sans-serif;
-/*    text-transform: uppercase;*/
-    letter-spacing: 0em;
+    
+      font-family: 'WolpePegasus-Regular', "Book Antiqua", "Palatino Linotype", serif;
     max-width: 80%;
     margin: 0 auto;
-    font-size: 1.03em; 
-    line-height: 1.6;
+    font-size: 1.3em; 
+    font-weight: bold;
+    line-height: 1.5;
     text-align: center;
-    color: #332727;
+    color: #51504b;
+
 
 
 }
@@ -204,16 +203,18 @@ figcaption h3{
     font-size: 1.5em;
     line-height: 1;
     color:#CA9723;
+
     margin-top: 1.5em;
 }
 
 figcaption p{
     
-    font-family: "futura-pt", 'Futura', Arial, Helvetica, sans-serif;
+    font-family: 'WolpePegasus-Regular', "Book Antiqua", "Palatino Linotype", serif;
     margin: 0 auto 3em;
-    font-size: .9em; 
+    font-size: 1em; 
     line-height: 1.5;
-    color: #332727;
+    letter-spacing: .01em;
+    color: #ada99c;
     margin-top: 1em;
 } 
 
@@ -243,10 +244,16 @@ a:hover{
 
 
 .futuraSC{
-    font-family: 'Futura';
+    font-family: "futura-pt", Arial, Helvetica, sans-serif;
+    font-weight: 500;
     font-size: .35em;
     line-height:4;
     letter-spacing: .05em;
+}
+
+a .futuraSC{
+    
+    font-size: .6em;
 }
 
 footer{
@@ -268,7 +275,7 @@ footer a{
 }
 
 footer p{
-    font-family: "futura-pt", 'Futura';
+    font-family: "futura-pt", Arial, Helvetica, sans-serif;
     color: #898989;
     font-size: .75em;
     line-height:4;
@@ -277,16 +284,7 @@ footer p{
     
 }
 
-/*FONTS*/
 
-
-@font-face{
-     
-    font-family:'Futura';
-    font-weight: normal;
-    font-style: normal;
-    src:url(webfonts/futura.ttc);
-}
 
 /*
 
@@ -325,6 +323,7 @@ LOADING ANIMATION
 
 @media(min-width:480px){
     
+/*
     header::before{
         
         content:'480x';
@@ -332,6 +331,7 @@ LOADING ANIMATION
         top:0;
         left:0;
     }
+*/
     
   
 }
@@ -339,6 +339,7 @@ LOADING ANIMATION
 
 @media (min-width : 750px){
     
+/*
       header::before{
         
         content:'750x';
@@ -347,8 +348,9 @@ LOADING ANIMATION
         left:0;
     }
    
+*/
    h2{
-        max-width: 60%;
+        max-width: 70%;
     }
     
     header{
@@ -359,6 +361,7 @@ LOADING ANIMATION
 }
 
 @media(min-width: 980px){
+/*
     
       header::before{
         
@@ -367,10 +370,11 @@ LOADING ANIMATION
         top:0;
         left:0;
     }
+*/
     
     article{
         
-        max-width: 70%;
+        max-width: 60%;
         margin: 0 auto;
     }
     
@@ -405,8 +409,11 @@ LOADING ANIMATION
 
     width: 60%;
     margin:0; 
-    padding: 0;
+    padding: 2%;
 }
+   
+    
+
     
     
     figure{
@@ -447,13 +454,13 @@ LOADING ANIMATION
 
   
     figure:nth-child(even) figcaption p,  figure:nth-child(even) figcaption h3{
-        width: 70%;
+        width: 80%;
         float: right;
     }
     
     figcaption h3, figcaption p {
-        max-width: 70%;
-        min-width: 60%;
+        max-width: 80%;
+        min-width: 70%;
         
     }
     
@@ -477,6 +484,7 @@ LOADING ANIMATION
 }
 
 @media(min-width:1280px ){
+/*
     header::before{
         
         content:'1280px';
@@ -485,18 +493,22 @@ LOADING ANIMATION
         left:0;
     }
     
+*/
     figure:last-child{
     
     margin-bottom: 10%;
 }
     
-  
+    .imageWrapper{
+        padding: 0%;
+    }  
     
 }
 
 @media(min-width:1920px ){
     
     
+/*
      header::before{
         
         content:'1920px';
@@ -504,7 +516,8 @@ LOADING ANIMATION
         top:0;
         left:0;
     }
-    
+*/
+  
     
        header{
         
@@ -513,7 +526,7 @@ LOADING ANIMATION
     
    article{
         
-        max-width: 60%;
+        max-width: 50%;
         margin: 0 auto;
     }
     
@@ -524,8 +537,8 @@ LOADING ANIMATION
     }
     
     h2{
-        font-size: 1.07em;
-        max-width: 60%;
+        font-size: 1.75em;
+        max-width: 70%;
     }
     
     figure + figure{
@@ -534,13 +547,13 @@ LOADING ANIMATION
 }
     
      figcaption h3, figcaption p {
-        max-width: 60%;
-        min-width: 40%;
+        max-width: 90%;
+        min-width: 80%;
 
     }
     
     figcaption p{
-        font-size: 1.03em;
+        font-size: 1.1em;
         
     }
     
