@@ -35,7 +35,8 @@ body{
     
 	font-size:1em;
 
-    
+    background-color: rgba(247,241,227,1); 
+  
     
 }
 
@@ -94,10 +95,11 @@ header{
     margin:auto;
     align-items: center;
     
-      background-image: linear-gradient(0deg, rgba(247,241,227,1), rgba(247,241,227,.8) ), url(images/SVG/children-tile-pattern.svg);
+         background-image: linear-gradient(0deg, rgba(247,241,227,1), rgba(247,241,227,.8) ), url(images/SVG/children-tile-pattern.svg);
     background-position: top left;
     background-repeat:  no-repeat, repeat;
     background-size: cover, 55px;
+     
 
 }
 
