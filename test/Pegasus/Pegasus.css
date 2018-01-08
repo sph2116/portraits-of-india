@@ -1,0 +1,46 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3506481, 2018-01-07T18:14:30-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: WolpePegasus-BoldItalic by Monotype 
+ * URL: https://www.myfonts.com/fonts/mti/wolpe-pegasus/Bold Italic/
+ * 
+ * Webfont: WolpePegasus-Bold by Monotype 
+ * URL: https://www.myfonts.com/fonts/mti/wolpe-pegasus/Bold/
+ * 
+ * Webfont: WolpePegasus-Italic by Monotype 
+ * URL: https://www.myfonts.com/fonts/mti/wolpe-pegasus/Italic/
+ * 
+ * Webfont: WolpePegasus-Regular by Monotype 
+ * URL: https://www.myfonts.com/fonts/mti/wolpe-pegasus/Regular/
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3506481
+ * Licensed pageviews: 250,000
+ * Webfonts copyright: Copyright &#x00A9; 2017 Monotype Imaging Inc. All rights reserved.
+ * 
+ * © 2018 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/358131");
+
+  
+@font-face {font-family: 'WolpePegasus-BoldItalic';src: url('webfonts/358131_0_0.eot');src: url('webfonts/358131_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/358131_0_0.woff2') format('woff2'),url('webfonts/358131_0_0.woff') format('woff'),url('webfonts/358131_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'WolpePegasus-Bold';src: url('webfonts/358131_1_0.eot');src: url('webfonts/358131_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/358131_1_0.woff2') format('woff2'),url('webfonts/358131_1_0.woff') format('woff'),url('webfonts/358131_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'WolpePegasus-Italic';src: url('webfonts/358131_2_0.eot');src: url('webfonts/358131_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/358131_2_0.woff2') format('woff2'),url('webfonts/358131_2_0.woff') format('woff'),url('webfonts/358131_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'WolpePegasus-Regular';src: url('webfonts/358131_3_0.eot');src: url('webfonts/358131_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/358131_3_0.woff2') format('woff2'),url('webfonts/358131_3_0.woff') format('woff'),url('webfonts/358131_3_0.ttf') format('truetype');}
+ 
